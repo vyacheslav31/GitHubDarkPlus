@@ -1,0 +1,30 @@
+{
+  "name": "githubdarkplus",
+  "displayName": "GitHubDark+",
+  "description": "A GitHub dark theme which doesn't use high contrast elements.",
+  "publisher": "vyacheslav31",
+  "author": {
+    "name": "Vyacheslav Gorbov"
+  },
+  "version": "1.0.1",
+  "license": "GNU General Public License v3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vyacheslav31/GitHubDarkPlus"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GitHubDark+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/GitHubDark+-color-theme.json"
+      }
+    ]
+  }
+}
